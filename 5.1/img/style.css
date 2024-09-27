@@ -1,0 +1,16 @@
+.row{
+    background-color: rgb(104, 94, 197);
+    height: 180px;
+    width: 700px;
+    margin: 10px;
+}
+
+#azul{
+    background-color: rgb(94, 187, 204);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
