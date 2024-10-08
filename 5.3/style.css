@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    align-items: stretch;
+    }
+    
+        .col{
+        color:white;
+        flex: 1px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(36, 179, 179);
+        }
+    
+    .col-2{
+        color: white;
+        flex: 1px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(36, 179, 179);
+    }
+    
+    .col-3{
+        color: white;
+        flex: 1px;
+        padding:20px ;
+        margin: 10px;
+        background-color: rgb(36, 179, 179);
+    }
+    
+    
