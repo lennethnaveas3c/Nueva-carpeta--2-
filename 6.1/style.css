@@ -1,0 +1,26 @@
+body{
+    padding: 1px;
+}
+
+.row{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#ubicacion{
+    background-color: rgb(65, 65, 65);
+    padding: 25px;
+}
+
+img{
+    padding: 15px;
+    margin: 8px;
+    height: 50px;
+    width: px;  /*creo q esto no*/
+}
+
+.kfc{
+    padding: 0px;
+    height: 800px;
+    width: 1500px;
+}
