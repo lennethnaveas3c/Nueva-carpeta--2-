@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     padding: 1px;
 }
@@ -5,22 +10,52 @@ body{
 .row{
     background-color: rgb(255, 255, 255);
     padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.row li{
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #ubicacion{
-    background-color: rgb(65, 65, 65);
-    padding: 25px;
+    background-color: rgb(32, 29, 29);
+    padding: 2px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img{
     padding: 15px;
     margin: 8px;
     height: 50px;
-    width: px;  /*creo q esto no*/
 }
 
 .kfc{
     padding: 0px;
-    height: 800px;
-    width: 1500px;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 7px;
+    color: rgb(100, 100, 100);
 }
