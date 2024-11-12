@@ -66,3 +66,33 @@ a{
     margin: 5px;
     color: rgb(100, 100, 100);
 }
+
+.vermenu{
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 19, 19);
+    padding: 10px;
+    width: 100px;
+    border: none;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: block; /* Asegurar que el botón ocupe toda la línea */
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#menus{
+    text-align: center;
+}
+
+#menuskfc{
+    height: 167px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: auto;
+}
