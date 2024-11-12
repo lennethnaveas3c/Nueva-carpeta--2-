@@ -43,6 +43,9 @@ img{
     height: 500px;
     width: 100%;
     margin: 0;
+    max-width: 100%;
+    height: auto; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Cubrir todo el contenedor */
 }
 
 input[type="text"] {
@@ -84,12 +87,14 @@ h1{
 
 #menus{
     text-align: center;
+    margin: 10px;
 }
 
 #menuskfc{
     height: 167px;
     margin: 20px;
     border-radius: 20px;
+    
 }
 
 p{
