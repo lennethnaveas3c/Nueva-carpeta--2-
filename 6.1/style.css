@@ -85,19 +85,30 @@ h1{
     
 }
 
-#menus{
-    text-align: center;
-    margin: 10px;
+#menus {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se muevan a una nueva fila */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    gap: 20px; /* Espacio entre los elementos */
 }
 
-#menuskfc{
-    height: 167px;
-    margin: 20px;
-    border-radius: 20px;
-    
+.menu-item {
+    width: 180px; /* Ajusta el tamaño de cada contenedor */
+    display: flex;
+    flex-direction: column; /* Coloca la imagen arriba y el texto abajo */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
 }
 
-p{
+.menu-item img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados en la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga la proporción */
+}
+
+.menu-item p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: auto;
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 0;
 }
