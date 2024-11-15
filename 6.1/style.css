@@ -114,3 +114,51 @@ h1{
 }
 
 /*ultima parte de la pagina*/
+
+.infoad{
+    display: flex;
+}
+
+
+.informacion{
+    margin: 20px;
+    flex: 2;
+}
+
+.informacion h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.informacion p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app{
+    flex: 2;
+}
+
+.app h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.descarga{
+    display: flex;
+}
+
+.final p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.final{
+    flex: 2;
+}
+
+.final2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 2;
+    text-align: end;
+}
+
+#final2{
+    display: flex;
+}
