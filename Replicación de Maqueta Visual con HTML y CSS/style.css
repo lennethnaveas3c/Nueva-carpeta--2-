@@ -44,6 +44,13 @@
     justify-content: center;
 }
 
+
+/* Imagen boton */
+.login-form img {
+    width: 20px;
+    border-radius: 10px;
+}
+
 /* Sección derecha (color agua) */
 .right {
     flex: 1; /* Ocupa el 50% de la pantalla */
@@ -56,6 +63,11 @@
 }
 
 /* Estilo para las imágenes de la sección derecha */
+
+.icono1, .icono2, .icono3 {
+
+}
+
 .images {
     display: flex;
     gap: 15px;
@@ -76,6 +88,7 @@
     text-align: center;
     border: none;
     cursor: pointer;
+    width: 142px;
 }
 
 /* Estilo para todos los botones */
@@ -102,4 +115,16 @@ input {
 /* Textos en la sección derecha */
 .right h2, .right p {
     color: white;
+}
+
+/* Imagen boton */
+.texto img {
+    width: 20px;
+    border-radius: 10px;
+}
+
+.texto {
+    position: relative;
+    left: 30px; 
+    top: 70px; 
 }
